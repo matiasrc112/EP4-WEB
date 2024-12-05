@@ -1,0 +1,376 @@
+.redes {
+    background: linear-gradient(90deg, #8B4513, #CD853F); /* Degradado marrón */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 5px;
+    border-bottom: 3px solid #6B4226; /* Borde inferior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+.icono {
+    transform: scale(2);
+    transition: transform 0.3s ease-in-out; /* Animación al hacer hover */
+    color: #FFE4C4;
+}
+.icono:hover {
+    transform: scale(2.5); /* Agrandado en hover */
+}
+.logo {
+    margin-left: 10px;
+}
+.opciones {
+    background: linear-gradient(to right, #FFF5EE, #FFE4C4); /* Fondo suave */
+    width: auto;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Sombra ligera */
+}
+.boton1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Playfair Display', serif; /* Fuente elegante */
+    color: #5A2E0C; /* Marrón oscuro */
+}
+.boton1 ul li {
+    transition: color 0.3s ease-in-out; /* Animación de color */
+}
+.boton1 ul li:hover {
+    color: #D2691E; /* Cambio de color en hover */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra de texto */
+}
+.opcion{
+    color: #8B4513;
+}
+
+
+
+
+
+
+
+.cajas1 {
+    background-color: #AFEEEE; /* Azul pastel */
+    width: auto;
+    height: 359px;
+}
+.texto1 {
+    display: grid;
+    grid-template-columns: 340px;
+    grid-template-rows: 80px 80px 80px 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 60%;
+    padding-right: 0%; 
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff; /* Verde bosque */
+}
+.logo1 {
+    display: flex;
+    position: absolute;
+}
+.ingreso {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFE4C4;
+    width: 160px;
+    padding: 10px;
+    justify-self: center;
+    background-color: #8B4513;
+    color: white;
+    border-radius: 10px;
+    border: 10px;
+    font-family: 'Arial', sans-serif;
+}
+button {
+    width: 160px;
+    margin-left: 30px;
+    justify-self: center;
+}
+
+.cajas2 {
+    background-color: #8B4513; /* Azul claro */
+    width: auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto2 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: antiquewhite; /* Gris oscuro */
+}
+
+.cajas3 {
+    background-color: antiquewhite; /* Azul pálido */
+    width: auto;
+    height: 280px;
+}
+.texto3 {
+    padding: 10px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    color:#8B4513; /* Gris tenue */
+}
+.locales {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.local {
+    text-align: center;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.local img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.local img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.local p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #8B4513;
+    font-family: 'Arial', sans-serif;
+}
+
+.cajas4 {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.cajas4 h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 24px;
+    color: antiquewhite; /* Azul medianoche */
+    background-color: #8B4513;
+}
+
+.cajas4 .video {
+    display: block;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cajas5 {
+    text-align: center;
+    max-width: auto;
+    background-color: #8B4513;
+}
+
+.cajas5 h2 {
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    color: antiquewhite; /* Índigo */
+    margin-bottom: 20px;
+}
+
+.cajas5 .local {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.cajas5 img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.cajas5 p {
+    font-size: 14px;
+    color: antiquewhite;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.cajas5 button {
+    background-color: antiquewhite; /* Azul real */
+    color: #8B4513;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cajas5 button a {
+    text-decoration: none;
+    color: #8B4513;
+    font-family: Arial, sans-serif;
+}
+
+.cajas5 button:hover {
+    background-color: #483D8B;
+    transform: scale(1.05);
+}
+.cajas6, .cajas7 {
+    width: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: antiquewhite;
+}
+
+.cajas6 h2, .cajas7 h2 {
+    font-size: 28px;
+    font-style: italic;
+    color: #8B4513; /* Color marrón */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #8B4513;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #8B4513; /* Color beige claro */
+    font-weight: bold;
+}
+
+.cajas7 .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas7 img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5A3221;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.caja8 {
+    background-color: #8B4513; /* Marrón oscuro */
+    color: antiquewhite; /* Dorado */
+    padding: 20px;
+    text-align: center;
+}
+
+.caja8 .final {
+    font-family: 'Playfair Display', serif; /* Elegante y clásico */
+    font-size: 20px;
+    margin: 0;
+}
+
+.caja8 h2:hover {
+    color: antiquewhite; /* Naranja oscuro brillante */
+    text-shadow: 1px 1px 2px #000000; /* Sombra para destacar el texto */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
